@@ -1,0 +1,46 @@
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Environment variables
+.env
+.env.*
+
+# Flask generated files
+backend/uploads/*
+backend/outputs/*
+
+# Test evidence files
+backend/test_evidence.jpg
+test_evidence.jpg
+
+# Keep empty folders in Git
+!backend/uploads/.gitkeep
+!backend/outputs/.gitkeep
+
+# Node / React
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Backend virtual environment
+backend/venv311/
