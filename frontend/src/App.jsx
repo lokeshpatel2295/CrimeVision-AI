@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import './App.css'
 
-const API_BASE_URL = 'https://crimevision-ai-1.onrender.com'
+const API_BASE_URL = 'https://crimevision-ai-81qs.onrender.com';
 
 function App() {
   const [file, setFile] = useState(null)
