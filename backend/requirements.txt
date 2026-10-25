@@ -21,10 +21,7 @@ open3d==0.18.0
 numpy==1.24.3
 scipy==1.11.4
 
-# Audio Processing
-openai-whisper==20231117
-soundfile==0.12.1
-librosa==0.10.1
+
 
 # NLP & Text Processing
 spacy==3.7.2
